@@ -1,0 +1,16 @@
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\bin\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.exe.config
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\bin\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.exe
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\bin\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.pdb
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.csproj.AssemblyReference.cache
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.csproj.SuggestedBindingRedirects.cache
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Interop.MapInfo.dll
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.csproj.ResolveComReference.cache
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.Form1.resources
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.Properties.Resources.resources
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.csproj.GenerateResource.cache
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.exe
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.pdb
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.Ankara_Neighborhood_Thematic.resources
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.Ankara_Neighbourhood_Histogram.resources
+C:\Users\Toshiba\Desktop\GGIT-1ST\3rd_semester\Thesis\Work\VS2\Spatial_Analysis_On_Housing_Prices_Ankara\obj\Debug\Spatial_Analysis_On_Housing_Prices_Ankara.Sorted_Neighbourhoods_Houses_Pricing.resources
