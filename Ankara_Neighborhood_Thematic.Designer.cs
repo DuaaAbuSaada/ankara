@@ -64,16 +64,17 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 15;
             this.listBox1.Items.AddRange(new object[] {
-            "Income",
-            "PhD",
-            "Masters",
-            "Bachelor",
-            "Middle_School",
-            "Elementary_School",
-            "AvG_Price_Per_Sq_meter",
-            "Max_Price_Per_Sq_meter",
-            "Min_Price_Per_Sq_meter"});
-            this.listBox1.Location = new System.Drawing.Point(220, 140);
+            "Avg_price",
+            "No_University",
+            "No_Hospital",
+            "No_Mall",
+            "No_Transportation",
+            "No_School",
+            "No_ATM",
+            "No_Bank",
+            "No_Migros",
+            "No_Budget_Supermarket"});
+            this.listBox1.Location = new System.Drawing.Point(220, 141);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(171, 79);
             this.listBox1.TabIndex = 4;
@@ -86,7 +87,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(175, 20);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "9";
+            this.textBox1.Text = "5";
             // 
             // label1
             // 

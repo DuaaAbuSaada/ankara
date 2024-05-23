@@ -24,7 +24,9 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
         {
             for (int k = Convert.ToInt16(Form1.mi.Eval("mapperinfo(" + Form1.win_id + ",9)")); k > 0; k = k - 1)
             {
-                if (Convert.ToInt16(Form1.mi.Eval("layerinfo(" + Form1.win_id + "," + Convert.ToString(k) + ",24)")) == 3)
+                int value = Convert.ToInt16(Form1.mi.Eval("layerinfo(" + Form1.win_id + "," + Convert.ToString(k) + ",24)"));
+          
+                if (value == 3)
                 {
                     Form1.mi.Do("remove map layer \"" + Form1.mi.Eval("layerinfo(" + Form1.win_id + "," + Convert.ToString(k) + ",1)") + "\"");
                 }
@@ -51,13 +53,13 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
 
             //Select Max(AvG_Price_Per_Sq_meter) from Neighbourhoods into Selectionv
 
-            Form1.mi.Do("select Max(" + thematic_column + ") from Neighbourhoods  into maxselect");
+            Form1.mi.Do("select Max(" + thematic_column + ") from Thiessen_all  into maxselect");
             Double maxx = Convert.ToDouble(Form1.mi.Eval("maxselect.col1"));
-            Form1.mi.Do("select Min(" + thematic_column + ") from Neighbourhoods  into minselect");
+            Form1.mi.Do("select Min(" + thematic_column + ") from Thiessen_all  into minselect");
             Double minn = Convert.ToDouble(Form1.mi.Eval("minselect.col1"));
 
 
-            Form1.mi.Do("select " + thematic_column + " from Neighbourhoods order by " + thematic_column + " into sel noselect");
+            Form1.mi.Do("select " + thematic_column + " from Thiessen_all order by " + thematic_column + " into sel noselect");
 
             int diff = Convert.ToInt32(maxx - minn);
             int range = diff / n;
@@ -89,7 +91,7 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
             r2 = Convert.ToString(Form1.mi.Eval("sel.col1"));
             cmstr = cmstr + r1 + ":" + r2 + " brush(2,16711680,16777215)";
 
-            Form1.mi.Do("shade window " + Form1.win_id + " Neighbourhoods with " + thematic_column + " ranges apply all use color Brush (2,16711680,16777215) " + cmstr);
+            Form1.mi.Do("shade window " + Form1.win_id + " Thiessen_all with " + thematic_column + " ranges apply all use color Brush (2,16711680,16777215) " + cmstr);
 
             Form1.mi.Do("Set Next Document Parent " + p + " Style 1");
             Form1.mi.Do("Create Cartographic Legend From Window " + Form1.win_id + " Behind Frame From Layer 3");
@@ -97,6 +99,6 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
 
         }
 
-
+       
     }
 }
