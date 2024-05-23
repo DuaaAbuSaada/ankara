@@ -26,7 +26,7 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
             //string AvG_Price_Per_Sq_meter = string.Empty;
             //string AMedian_Of_Prices_Per_Sq_meter = string.Empty;
 
-            Form1.mi.Do("select ADI , AvG_Price_Per_Sq_meter , Median_Of_Prices_Per_Sq_meter from Neighbourhoods order by AvG_Price_Per_Sq_meter desc into sel noselect ");
+            Form1.mi.Do("select Name , AvG_Price_Per_Sq_meter , Median_Of_Prices_Per_Sq_meter from Neighbourhoods order by AvG_Price_Per_Sq_meter desc into sel noselect ");
 
             int range = Convert.ToInt16(Form1.mi.Eval("int(tableinfo(sel,8)/" + Convert.ToString("9") + ")"));
          
@@ -76,10 +76,10 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             DataGridViewRow dr = dataGridView1.CurrentRow;
-            string ADI = dr.Cells[0].Value.ToString();
+            string NAME = dr.Cells[0].Value.ToString();
             string AVG = dr.Cells[1].Value.ToString();
             string Median = dr.Cells[2].Value.ToString();
-            Form1.mi.Do("select * from Neighbourhoods where ADI = \"" + ADI + "\" into sel2");
+            Form1.mi.Do("select * from Neighbourhoods where Name = \"" + NAME + "\" into sel2");
             Form1.mi.Do("add map layer sel2 set map zoom entire layer sel2");
         }
 

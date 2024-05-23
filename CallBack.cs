@@ -25,7 +25,7 @@ namespace Spatial_Analysis_On_Housing_Prices_Ankara
                 tabloadi = Form1.mi.Eval("SearchInfo(" + i.ToString() + ",1)");
                 String row_id = Form1.mi.Eval("SearchInfo(" + i.ToString() + ",2)");
                 Form1.mi.Do("Fetch rec " + row_id + " From " + tabloadi);
-                if ((tabloadi == "Neighbourhoods"))
+                if ((tabloadi == "Thiessen_all"))
                 {
                     f1.Invoke(new mapinfo(f1.f3.fill_form));
                     

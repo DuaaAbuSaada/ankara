@@ -31,9 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tab = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tab.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,9 +61,7 @@
             // 
             // tab
             // 
-            this.tab.Controls.Add(this.tabPage1);
-            this.tab.Controls.Add(this.tabPage2);
-            this.tab.Controls.Add(this.tabPage3);
+            this.tab.Controls.Add(this.tabPage4);
             this.tab.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tab.Location = new System.Drawing.Point(25, 77);
             this.tab.Name = "tab";
@@ -73,35 +69,14 @@
             this.tab.Size = new System.Drawing.Size(809, 363);
             this.tab.TabIndex = 3;
             // 
-            // tabPage1
+            // tabPage4
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(801, 334);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Average and Maximum Price Per m2";
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage2.Location = new System.Drawing.Point(4, 25);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(801, 334);
-            this.tabPage2.TabIndex = 2;
-            this.tabPage2.Text = " Average and Minimum Prices Per m2";
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(801, 334);
-            this.tabPage3.TabIndex = 3;
-            this.tabPage3.Text = "All Categories";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPage4.Location = new System.Drawing.Point(4, 25);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(801, 334);
+            this.tabPage4.TabIndex = 4;
+            this.tabPage4.Text = "No_Mall";
+            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // Ankara_Neighbourhood_Histogram
             // 
@@ -113,7 +88,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Ankara_Neighbourhood_Histogram";
             this.Text = "Ankara_Neighbourhood_Histogram";
-            //this.Load += new System.EventHandler(this.Ankara_Neighbourhood_Histogram_Load);
             this.tab.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -124,8 +98,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TabControl tab;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
     }
 }
